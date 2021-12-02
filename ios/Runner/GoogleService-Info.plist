@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>994160113078-efrqjfnu4bn86ki3do0goak9jpia2i52.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.994160113078-efrqjfnu4bn86ki3do0goak9jpia2i52</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA2RZP-7Gpe0GKxAbBYdpZxYtPNnTqCsBQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>994160113078</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.app2park.park</string>
+	<key>PROJECT_ID</key>
+	<string>app2park-firebase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>app2park-firebase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:994160113078:ios:2da6eb02a66ac99b767d17</string>
+	<key>DATABASE_URL</key>
+	<string>https://app2park-firebase.firebaseio.com</string>
+</dict>
+</plist>

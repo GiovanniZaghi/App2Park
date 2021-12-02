@@ -1,0 +1,88 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'agreement_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Agreements _$AgreementsFromJson(Map<String, dynamic> json) {
+  return Agreements(
+    id: json['id'] as String,
+    id_agreement_app: json['id_agreement_app'] as String,
+    id_park: json['id_park'] as String,
+    id_user: json['id_user'] as String,
+    agreement_type: json['agreement_type'] as String,
+    date_time: json['date_time'] as String,
+    agreement_begin: json['agreement_begin'] as String,
+    agreement_end: json['agreement_end'] as String,
+    accountable_name: json['accountable_name'] as String,
+    accountable_doc: json['accountable_doc'] as String,
+    accountable_cell: json['accountable_cell'] as String,
+    accountable_email: json['accountable_email'] as String,
+    send_nf: json['send_nf'] as String,
+    doc_nf: json['doc_nf'] as String,
+    company_name: json['company_name'] as String,
+    company_doc: json['company_doc'] as String,
+    company_cell: json['company_cell'] as String,
+    company_email: json['company_email'] as String,
+    bank_slip_send: json['bank_slip_send'] as String,
+    payment_day: json['payment_day'] as String,
+    mon: json['mon'] as String,
+    tue: json['tue'] as String,
+    wed: json['wed'] as String,
+    thur: json['thur'] as String,
+    fri: json['fri'] as String,
+    sat: json['sat'] as String,
+    sun: json['sun'] as String,
+    time_on: json['time_on'] as String,
+    time_off: json['time_off'] as String,
+    id_price_detached: json['id_price_detached'] as String,
+    parking_spaces: json['parking_spaces'] as String,
+    price: json['price'] as String,
+    plates: json['plates'] as String,
+    comment: json['comment'] as String,
+    status_payment: json['status_payment'] as String,
+    until_payment: json['until_payment'] as String,
+  );
+}
+
+Map<String, dynamic> _$AgreementsToJson(Agreements instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'id_agreement_app': instance.id_agreement_app,
+      'id_park': instance.id_park,
+      'id_user': instance.id_user,
+      'agreement_type': instance.agreement_type,
+      'date_time': instance.date_time,
+      'agreement_begin': instance.agreement_begin,
+      'agreement_end': instance.agreement_end,
+      'accountable_name': instance.accountable_name,
+      'accountable_doc': instance.accountable_doc,
+      'accountable_cell': instance.accountable_cell,
+      'accountable_email': instance.accountable_email,
+      'send_nf': instance.send_nf,
+      'doc_nf': instance.doc_nf,
+      'company_name': instance.company_name,
+      'company_doc': instance.company_doc,
+      'company_cell': instance.company_cell,
+      'company_email': instance.company_email,
+      'bank_slip_send': instance.bank_slip_send,
+      'payment_day': instance.payment_day,
+      'mon': instance.mon,
+      'tue': instance.tue,
+      'wed': instance.wed,
+      'thur': instance.thur,
+      'fri': instance.fri,
+      'sat': instance.sat,
+      'sun': instance.sun,
+      'time_on': instance.time_on,
+      'time_off': instance.time_off,
+      'id_price_detached': instance.id_price_detached,
+      'parking_spaces': instance.parking_spaces,
+      'price': instance.price,
+      'plates': instance.plates,
+      'comment': instance.comment,
+      'status_payment': instance.status_payment,
+      'until_payment': instance.until_payment,
+    };

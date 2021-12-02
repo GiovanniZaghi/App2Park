@@ -1,0 +1,87 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'agreements_off_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+AgreementsOff _$AgreementsOffFromJson(Map<String, dynamic> json) {
+  return AgreementsOff(
+    json['id'] as int,
+    json['id_park'] as int,
+    json['id_user'] as int,
+    json['agreement_type'] as int,
+    json['date_time'] as String,
+    json['agreement_begin'] as String,
+    json['agreement_end'] as String,
+    json['accountable_name'] as String,
+    json['accountable_doc'] as String,
+    json['accountable_cell'] as String,
+    json['accountable_email'] as String,
+    json['send_nf'] as int,
+    json['doc_nf'] as int,
+    json['company_name'] as String,
+    json['company_doc'] as String,
+    json['company_cell'] as String,
+    json['company_email'] as String,
+    json['bank_slip_send'] as int,
+    json['payment_day'] as int,
+    json['mon'] as int,
+    json['tue'] as int,
+    json['wed'] as int,
+    json['thur'] as int,
+    json['fri'] as int,
+    json['sat'] as int,
+    json['sun'] as int,
+    json['time_on'] as String,
+    json['time_off'] as String,
+    json['id_price_detached'] as int,
+    json['parking_spaces'] as int,
+    (json['price'] as num)?.toDouble(),
+    json['plates'] as String,
+    json['comment'] as String,
+    json['status_payment'] as int,
+    json['until_payment'] as String,
+  )..id_agreement_app = json['id_agreement_app'] as int;
+}
+
+Map<String, dynamic> _$AgreementsOffToJson(AgreementsOff instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'id_agreement_app': instance.id_agreement_app,
+      'id_park': instance.id_park,
+      'id_user': instance.id_user,
+      'agreement_type': instance.agreement_type,
+      'date_time': instance.date_time,
+      'agreement_begin': instance.agreement_begin,
+      'agreement_end': instance.agreement_end,
+      'accountable_name': instance.accountable_name,
+      'accountable_doc': instance.accountable_doc,
+      'accountable_cell': instance.accountable_cell,
+      'accountable_email': instance.accountable_email,
+      'send_nf': instance.send_nf,
+      'doc_nf': instance.doc_nf,
+      'company_name': instance.company_name,
+      'company_doc': instance.company_doc,
+      'company_cell': instance.company_cell,
+      'company_email': instance.company_email,
+      'bank_slip_send': instance.bank_slip_send,
+      'payment_day': instance.payment_day,
+      'mon': instance.mon,
+      'tue': instance.tue,
+      'wed': instance.wed,
+      'thur': instance.thur,
+      'fri': instance.fri,
+      'sat': instance.sat,
+      'sun': instance.sun,
+      'time_on': instance.time_on,
+      'time_off': instance.time_off,
+      'id_price_detached': instance.id_price_detached,
+      'parking_spaces': instance.parking_spaces,
+      'price': instance.price,
+      'plates': instance.plates,
+      'comment': instance.comment,
+      'status_payment': instance.status_payment,
+      'until_payment': instance.until_payment,
+    };
